@@ -1,0 +1,15 @@
+{
+  "name": "email-scanner-detector",
+  "version": "1.0.0",
+  "description": "Tell email security scanners (Safe Links, Mimecast, Proofpoint) apart from real people: no more fake opens, fake clicks or false unsubscribes.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.js" } },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["email", "unsubscribe", "safe-links", "mimecast", "proofpoint", "bot-detection", "click-tracking", "rfc8058", "pecr", "gdpr"],
+  "author": "Damon Chandio",
+  "license": "MIT"
+}
