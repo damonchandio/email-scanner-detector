@@ -1,5 +1,9 @@
 # email-scanner-detector
 
+![email-scanner-detector](.github/social-preview.png)
+
+[![tests](https://github.com/damonchandio/email-scanner-detector/actions/workflows/tests.yml/badge.svg)](https://github.com/damonchandio/email-scanner-detector/actions/workflows/tests.yml) ![licence](https://img.shields.io/badge/licence-MIT-16A6F0) ![runtime](https://img.shields.io/badge/node-18%2B-339933?logo=node.js&logoColor=white) [![stars](https://img.shields.io/github/stars/damonchandio/email-scanner-detector?style=social)](https://github.com/damonchandio/email-scanner-detector/stargazers)
+
 Tell email security scanners apart from real people, so your opens, clicks and unsubscribes mean something.
 
 Zero dependencies. Works anywhere with the Fetch API: Node 18+, Deno, Bun, Cloudflare Workers and Supabase Edge Functions.
